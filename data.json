@@ -1,0 +1,366 @@
+{
+  "institution_name": "HighQ Training Institute",
+  "about": "A premier tech training institute specializing in industry-ready software development and AI skills.",
+  "admissions": {
+    "status": "Enrollment open for upcoming batches.",
+    "process": "Register online, attend a free counseling session, and complete the fee payment."
+  },
+  "eligibility_and_rules": {
+    "general_admission": "Open to graduates, undergraduates, and working professionals looking to upskill.",
+    "placement_eligibility": "To qualify for placement drives, students MUST score a minimum of 75% marks in internal assessment tests and successfully clear the institute's mock interviews.",
+    "attendance_requirement": "A minimum of 85% attendance is required to sit for final mock interviews."
+  },
+  "courses": [
+    {
+      "course_name": "Python Full Stack",
+      "curriculum": "Python, SQL, Django, GenAI, HTML, CSS, JavaScript",
+      "duration": "6 Months",
+      "fees_structure": "₹45,000 total (Can be paid in 3 EMIs of ₹15,000)"
+    },
+    {
+      "course_name": "Java Full Stack",
+      "curriculum": "Core Java, Advanced Java, Spring Boot, Hibernate, SQL, React/Angular",
+      "duration": "6 Months",
+      "fees_structure": "₹50,000 total (Can be paid in 3 EMIs)"
+    },
+    {
+      "course_name": "MERN Stack",
+      "curriculum": "MongoDB, Express.js, React.js, Node.js",
+      "duration": "4 Months",
+      "fees_structure": "₹35,000 total (Can be paid in 2 EMIs)"
+    },
+    {
+      "course_name": "Artificial Intelligence",
+      "curriculum": "Machine Learning, Deep Learning, NLP, Computer Vision, Python",
+      "duration": "5 Months",
+      "fees_structure": "₹60,000 total (Can be paid in 4 EMIs)"
+    }
+  ],
+  "placement_history": {
+    "overall_record": "Over 1,200+ students placed since 2018.",
+    "placement_assistance": "100% placement assistance provided for students who clear the mock interview criteria.",
+    "average_package": "₹6.5 LPA",
+    "highest_package": "₹15.5 LPA"
+  },
+  "recent_placements_list": [
+    {
+      "name": "Aditya Sharma",
+      "course": "Artificial Intelligence",
+      "company": "Microsoft",
+      "package": "15.5 LPA",
+      "year": 2024
+    },
+    {
+      "name": "Priya Singh",
+      "course": "Java Full Stack",
+      "company": "TCS",
+      "package": "7.0 LPA",
+      "year": 2024
+    },
+    {
+      "name": "Rohan Verma",
+      "course": "MERN Stack",
+      "company": "Accenture",
+      "package": "6.5 LPA",
+      "year": 2024
+    },
+    {
+      "name": "Neha Gupta",
+      "course": "Python Full Stack",
+      "company": "Infosys",
+      "package": "5.5 LPA",
+      "year": 2024
+    },
+    {
+      "name": "Vikram Desai",
+      "course": "Artificial Intelligence",
+      "company": "Deloitte",
+      "package": "9.0 LPA",
+      "year": 2024
+    },
+    {
+      "name": "Sneha Joshi",
+      "course": "MERN Stack",
+      "company": "Cognizant",
+      "package": "6.0 LPA",
+      "year": 2024
+    },
+    {
+      "name": "Amit Kumar",
+      "course": "Java Full Stack",
+      "company": "Wipro",
+      "package": "5.5 LPA",
+      "year": 2024
+    },
+    {
+      "name": "Kavya Iyer",
+      "course": "Python Full Stack",
+      "company": "Amazon",
+      "package": "12.0 LPA",
+      "year": 2024
+    },
+
+    {
+      "name": "Rahul Menon",
+      "course": "Python Full Stack",
+      "company": "Tech Mahindra",
+      "package": "6.0 LPA",
+      "year": 2023
+    },
+    {
+      "name": "Anjali Patel",
+      "course": "Java Full Stack",
+      "company": "Capgemini",
+      "package": "6.5 LPA",
+      "year": 2023
+    },
+    {
+      "name": "Siddharth Rao",
+      "course": "Artificial Intelligence",
+      "company": "Google",
+      "package": "14.0 LPA",
+      "year": 2023
+    },
+    {
+      "name": "Divya Reddy",
+      "course": "MERN Stack",
+      "company": "TCS",
+      "package": "7.5 LPA",
+      "year": 2023
+    },
+    {
+      "name": "Karan Chawla",
+      "course": "Python Full Stack",
+      "company": "Infosys",
+      "package": "5.0 LPA",
+      "year": 2023
+    },
+    {
+      "name": "Meera Nair",
+      "course": "Artificial Intelligence",
+      "company": "Wipro",
+      "package": "8.5 LPA",
+      "year": 2023
+    },
+    {
+      "name": "Arjun Das",
+      "course": "Java Full Stack",
+      "company": "HCL",
+      "package": "5.5 LPA",
+      "year": 2023
+    },
+    {
+      "name": "Pooja Hegde",
+      "course": "MERN Stack",
+      "company": "Accenture",
+      "package": "6.0 LPA",
+      "year": 2023
+    },
+
+    {
+      "name": "Suresh Pillai",
+      "course": "Java Full Stack",
+      "company": "Cognizant",
+      "package": "5.5 LPA",
+      "year": 2022
+    },
+    {
+      "name": "Ritu Sharma",
+      "course": "Python Full Stack",
+      "company": "TCS",
+      "package": "6.0 LPA",
+      "year": 2022
+    },
+    {
+      "name": "Manish Tiwari",
+      "course": "MERN Stack",
+      "company": "Deloitte",
+      "package": "8.0 LPA",
+      "year": 2022
+    },
+    {
+      "name": "Ananya Singh",
+      "course": "Artificial Intelligence",
+      "company": "Amazon",
+      "package": "11.5 LPA",
+      "year": 2022
+    },
+    {
+      "name": "Deepak Kumar",
+      "course": "Python Full Stack",
+      "company": "Wipro",
+      "package": "5.0 LPA",
+      "year": 2022
+    },
+    {
+      "name": "Swati Mishra",
+      "course": "Java Full Stack",
+      "company": "Infosys",
+      "package": "6.5 LPA",
+      "year": 2022
+    },
+    {
+      "name": "Varun Malhotra",
+      "course": "Artificial Intelligence",
+      "company": "Tech Mahindra",
+      "package": "7.5 LPA",
+      "year": 2022
+    },
+
+    {
+      "name": "Nisha Agarwal",
+      "course": "MERN Stack",
+      "company": "HCL",
+      "package": "5.5 LPA",
+      "year": 2021
+    },
+    {
+      "name": "Tarun Bhatia",
+      "course": "Python Full Stack",
+      "company": "Capgemini",
+      "package": "6.0 LPA",
+      "year": 2021
+    },
+    {
+      "name": "Ishita Roy",
+      "course": "Java Full Stack",
+      "company": "TCS",
+      "package": "7.0 LPA",
+      "year": 2021
+    },
+    {
+      "name": "Gaurav Singh",
+      "course": "Artificial Intelligence",
+      "company": "Accenture",
+      "package": "8.5 LPA",
+      "year": 2021
+    },
+    {
+      "name": "Shruti Jain",
+      "course": "MERN Stack",
+      "company": "Cognizant",
+      "package": "5.0 LPA",
+      "year": 2021
+    },
+    {
+      "name": "Prateek Sen",
+      "course": "Java Full Stack",
+      "company": "Wipro",
+      "package": "4.8 LPA",
+      "year": 2021
+    },
+
+    {
+      "name": "Akash Pandey",
+      "course": "Python Full Stack",
+      "company": "Infosys",
+      "package": "5.0 LPA",
+      "year": 2020
+    },
+    {
+      "name": "Sonal Kapoor",
+      "course": "Java Full Stack",
+      "company": "Tech Mahindra",
+      "package": "4.5 LPA",
+      "year": 2020
+    },
+    {
+      "name": "Yash Rajput",
+      "course": "MERN Stack",
+      "company": "TCS",
+      "package": "5.5 LPA",
+      "year": 2020
+    },
+    {
+      "name": "Bhumika Das",
+      "course": "Artificial Intelligence",
+      "company": "Deloitte",
+      "package": "7.5 LPA",
+      "year": 2020
+    },
+    {
+      "name": "Rishabh Jain",
+      "course": "Python Full Stack",
+      "company": "Cognizant",
+      "package": "5.0 LPA",
+      "year": 2020
+    },
+
+    {
+      "name": "Vivek Chouhan",
+      "course": "Java Full Stack",
+      "company": "Wipro",
+      "package": "4.5 LPA",
+      "year": 2019
+    },
+    {
+      "name": "Tanvi Mehra",
+      "course": "MERN Stack",
+      "company": "Infosys",
+      "package": "5.0 LPA",
+      "year": 2019
+    },
+    {
+      "name": "Harsh Vardhan",
+      "course": "Python Full Stack",
+      "company": "HCL",
+      "package": "4.2 LPA",
+      "year": 2019
+    },
+    {
+      "name": "Radhika Apte",
+      "course": "Artificial Intelligence",
+      "company": "Amazon",
+      "package": "10.0 LPA",
+      "year": 2019
+    },
+    {
+      "name": "Mayank Joshi",
+      "course": "Java Full Stack",
+      "company": "TCS",
+      "package": "4.8 LPA",
+      "year": 2019
+    },
+
+    {
+      "name": "Sanjay Dutt",
+      "course": "MERN Stack",
+      "company": "Capgemini",
+      "package": "4.5 LPA",
+      "year": 2018
+    },
+    {
+      "name": "Kriti Sanon",
+      "course": "Python Full Stack",
+      "company": "Tech Mahindra",
+      "package": "4.0 LPA",
+      "year": 2018
+    },
+    {
+      "name": "Rajkummar Rao",
+      "course": "Java Full Stack",
+      "company": "Infosys",
+      "package": "4.5 LPA",
+      "year": 2018
+    },
+    {
+      "name": "Alia Bhatt",
+      "course": "Artificial Intelligence",
+      "company": "Cognizant",
+      "package": "6.0 LPA",
+      "year": 2018
+    },
+    {
+      "name": "Ayushmann K.",
+      "course": "Python Full Stack",
+      "company": "Wipro",
+      "package": "4.2 LPA",
+      "year": 2018
+    }
+  ],
+  "contact_info": {
+    "email": "enquiries@highqtraining.com",
+    "phone": "+91-9876543210",
+    "address": "BTM Layout branch at No. 456, 1st floor, 7th Main, 7th Cross Road (above HDFC BANK)"
+  }
+}
