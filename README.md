@@ -20,6 +20,7 @@ An AI-powered institute enquiry chatbot built with **Streamlit**, **Groq API**, 
 - Responsive Streamlit UI
 - Secure API key management using `.env`
 - Customizable LLM model selection
+- Customizable institution information through JSON
 
 ---
 
@@ -35,6 +36,8 @@ An AI-powered institute enquiry chatbot built with **Streamlit**, **Groq API**, 
 ---
 
 ## Installation
+
+Follow these steps to set up the project on your local machine.
 
 **1. Clone the repository**
 
@@ -57,11 +60,13 @@ python -m venv venv
 Activate the environment:
 
 Windows:
+
 ```bash
 venv\Scripts\activate
 ```
 
 Mac/Linux:
+
 ```bash
 source venv/bin/activate
 ```
@@ -155,9 +160,75 @@ model="your_preferred_model_id"
 
 ---
 
+## Customizing the Knowledge Base (data.json)
+
+This chatbot uses a JSON file (`data.json`) as its knowledge base to answer institute-related questions.
+
+You can customize the chatbot by adding your own institution's information to this file.
+
+This means developers can adapt the chatbot for different educational institutions without having to rewrite the entire application.
+
+### How to Add Your Institution Data
+
+1. Open the `data.json` file in the project directory.
+2. Add your institution's information in JSON format.
+3. Include relevant details such as:
+   - Institution name
+   - Institution location
+   - Courses offered
+   - Admission process
+   - Eligibility criteria
+   - Fee structure
+   - Placement information
+   - Contact details
+   - Other important institutional information
+4. Save the changes.
+5. Restart the application if required.
+
+### Example JSON Structure
+
+```json
+{
+    "institution": {
+        "name": "ABC Institute",
+        "location": "Bengaluru",
+        "courses": [
+            "Computer Science",
+            "Information Science",
+            "Electronics"
+        ],
+        "admission": {
+            "process": "Entrance examination and counselling",
+            "eligibility": "10+2 with relevant subjects"
+        },
+        "placements": {
+            "average_package": "6 LPA",
+            "highest_package": "18 LPA"
+        },
+        "contact": {
+            "email": "info@example.com",
+            "phone": "9876543210"
+        }
+    }
+}
+```
+
+*The above JSON is only an example. Replace it with information about your own institution.*
+
+**Important:**
+- Maintain valid JSON syntax.
+- Use double quotes for keys and string values.
+- Do not add trailing commas.
+- Keep the information accurate and up to date.
+- Follow the existing JSON structure expected by `main.py` when modifying the knowledge base.
+
+By updating `data.json`, you can provide institution-specific information and customize the chatbot according to your requirements.
+
+---
+
 ## Run the Application
 
-After configuring your API key, execute:
+After configuring your API key and institution data, execute:
 
 ```bash
 streamlit run main.py
@@ -190,7 +261,7 @@ HighQ-AI-Assistant/
 ## Security
 
 - API keys are stored in environment variables.
-- The `.env` file is excluded from Git tracking.
+- The `.env` file should be excluded from Git tracking.
 - Never commit private credentials or API keys to the repository.
 
 ---
